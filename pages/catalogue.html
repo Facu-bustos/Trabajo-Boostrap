@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- link boostrap -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ <!--link css propio-->
+ <link rel="stylesheet" href="main.css">
+     <title>Catalogo de imagenes</title>
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+           <a class="navbar-brand" href="../index.html">NASA</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">IMAGENES</a>
+              </li>
+               </ul>
+           <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          </div>
+      </div>
+    </nav>
+    <div class="text-bg-dark p-8">
+      <div class="col-sm-12 col-md-8">
+          <h2>Adentrate en el espacio con nosotros</h2>
+    </div>
+  </nav>
+       
+        <main class="p-4">
+        <section class="conteiner">
+            <div class="row">
+               <div class="col-sm-12 col-md-8">
+                <h2>Galeria de fotos Espaciales</h2>
+                <p>Este es el carrusel de las ultimas fotogragias tomadas.</p>
+            </div>
+        </section>
+        
+
+        </main>
+       </div>
+       <!--Carrusel activo -->
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../image/nasa-3.png" class="d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Estacion espacial</h5>
+              <p>Esta es la nueva estacion espacial de los EE.UU </p>
+               <div class="carousel-item">
+            <img src="../image/nasa-1.jpg" class="d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Segunda imagen</h5>
+              <p>Imagen tomada recientemente.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../image/nasa-1.jpg" class="d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Segunda imagen</h5>
+              <p>Imagen tomada recientemente.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../image/nasa-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tercera imagen</h5>
+              <p>Imagen tomada recientemente.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      
+      </div>
+    
+  </body>
+
+    </body>
+</html>
