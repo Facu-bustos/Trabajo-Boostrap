@@ -7,7 +7,7 @@
  <!-- link boostrap -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
  <!--link css propio-->
- <link rel="stylesheet" href="main.css">
+ <link rel="stylesheet" href="../css/main.css">
      <title>Catalogo de imagenes</title>
 </head>
 
@@ -30,13 +30,26 @@
           </form>
           </div>
       </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../pages/Registrate.html">Nasa en vivo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/Informacion.html">A que nos dedicamos</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.nasa.gov/feature/jpl/tonga-eruption-blasted-unprecedented-amount-of-water-into-stratosphere" target="_blanck">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"></a>
+        </li>
+      </ul>
     </nav>
     <div class="text-bg-dark p-8">
       <div class="col-sm-12 col-md-8">
           <h2>Adentrate en el espacio con nosotros</h2>
     </div>
   </nav>
-       
         <main class="p-4">
         <section class="conteiner">
             <div class="row">
@@ -44,11 +57,9 @@
                 <h2>Galeria de fotos Espaciales</h2>
                 <p>Este es el carrusel de las ultimas fotogragias tomadas.</p>
             </div>
-        </section>
-        
-
+          </section>
         </main>
-       </div>
+        
        <!--Carrusel activo -->
        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -56,32 +67,27 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-      
+
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../image/nasa-3.png" class="d-block w-100" alt="img">
+            <img src="../image/nasa-3.png" class="d-block w-100 p-4" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Estacion espacial</h5>
-              <p>Esta es la nueva estacion espacial de los EE.UU </p>
-               <div class="carousel-item">
-            <img src="../image/nasa-1.jpg" class="d-block w-100" alt="img">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Segunda imagen</h5>
-              <p>Imagen tomada recientemente.</p>
+              <h5>Fotografia tomada por el telescopio james webb</h5>
+              <p>Presentamos la nueva estación espacial internacional.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../image/nasa-1.jpg" class="d-block w-100" alt="img">
+            <img src="../image/nasa-1.jpg" class="d-block w-100 p-4" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Segunda imagen</h5>
-              <p>Imagen tomada recientemente.</p>
+              <h5>Fotografia tomada por el telescopio james webb</h5>
+              <p>Se encontraron ruinas antiguas en la luna.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../image/nasa-2.jpg" class="d-block w-100" alt="...">
+            <img src="../image/agujero.jpg" class="d-block w-100 p-4" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Tercera imagen</h5>
-              <p>Imagen tomada recientemente.</p>
+              <h5>Fotografia tomada por el telescopio james webb</h5>
+              <p>Nuevo agujero negro encontrado.</p>
             </div>
           </div>
         </div>
@@ -93,10 +99,12 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      
-      </div>
-    
-  </body>
 
-    </body>
+      </div>
+      <footer>
+        <a class="pagina-nasa" href="https://www.nasa.gov/" target="_blanck">NASA</a>
+      </footer>
+    <!--scrip boostrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>

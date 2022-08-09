@@ -1,0 +1,186 @@
+.fondo{
+    background-color: black;
+}
+
+.col-sm-12{
+    text-align: center !important;
+}
+.imagen {
+   
+    width: 400px !important;
+    height: 200px !important;
+}
+
+ .carousel-item .active{
+    width: 100px !important;
+    height: 100px !important;
+ }
+.card-img-top {
+    width: 430px !important;
+    height: 300px !important;
+}
+.card {
+background-color:black !important;
+}
+.card-text{
+    color: white !important;
+}
+.card-title {
+    text-decoration: underline;
+    color: white !important;
+}
+.btn-outline-dark{
+    text-decoration: underline;
+    color: whitesmoke!important;
+}
+ .body.fondo {
+    color: black !important;
+ }
+ .p-4{
+    background-color: black;
+
+ }
+ .text-bg-dark {
+    background-color: black !important;
+ }
+.pagina-nasa{
+    margin-right: 96%;
+}
+.img-fluid:hover{
+    transform: scale(0.9) !important;
+}
+.nav-item:hover{
+    transform: scale(1.2) !important;
+
+}
+.nav-link{
+    font-size: 15px !important;
+    color: black !important;
+    border-color: black !important;
+    text-decoration: underline !important;
+}
+/*--Catalogue css grid*/
+.grid-container{
+    display: grid;
+    background-color: rgb(black);
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.grid-container div{
+    text-align: center;
+    border-radius: 2px;
+}
+.queSomos{
+    color: rgb(223, 218, 218);
+    font-size: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.queEsNasa{
+    color: gray;
+    font-size: 15px;
+    padding-right: 2px;
+    border-style:double;
+    border-color: rgb(101, 168, 227);
+}
+.queEstaPasando{
+    font-size: 20px;
+    color: rgb(223, 218, 218);
+}
+.pasaEnLaNasa{
+   color: gray;
+   font-size: 15px;
+   padding-right: 2px;
+   border-style:double; 
+   border-color: rgb(101, 168, 227);
+}
+.queOcurre{ 
+    color: rgb(223, 218, 218);
+    font-size: 20px;
+}
+.ocurreQue{
+    color: gray;
+    font-size: 15px;
+    padding-right: 2px;
+    border-style:double;
+    border-color: rgb(101, 168, 227);
+}
+.trabajonasa{
+    width: 200px;
+    height: 200px;
+}
+.equiponasa{
+    width: 200px;
+    height: 200px;
+}
+.humano{
+    width: 200px;
+    height: 200px; 
+}
+.ocurreQue:hover{
+    transform: scale(0.9);
+}
+.pasaEnLaNasa:hover{
+    transform: scale(0.9);
+}
+.queEsNasa:hover{
+    transform: scale(0.9);
+}
+.fondonegro{
+    background-color: black;
+}
+.comienzo{
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    border-style: groove;
+    border-color: gray;
+}
+        /*--flexbox--*/
+.comienzo{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+.historia{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fondo-registrate{
+    background-image: url(../image/nnn.jpg)
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 246, 246);
+}
+.comentario{
+    color: grey;
+    border-style: double;
+    border-color: rgb(241, 95, 95);
+    border-radius: 2px;
+    margin-right: 75%;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.correoElec{
+    color: grey;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.texto{
+    margin-left: 25px;
+    margin-bottom: 2px;
+}
+.bases{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
